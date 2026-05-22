@@ -56,6 +56,17 @@ function PrivacyContent() {
                 ],
                 purpose: "الغرض: تخصيص تجربتك وتقديم توصيات محتوى ملائمة لاهتماماتك.",
                 note: "ملاحظة مهمة: هذه البيانات مرتبطة بمعرّف حسابك، مما يعني أنها ليست مجهولة الهوية. نستخدم هذا الربط لتقديم تجربة مخصصة متسقة عبر جميع أجهزتك."
+              },
+              {
+                title: "د. بلاغات المحتوى",
+                items: [
+                  "عند الإبلاغ عن محتوى مخالف، نحتفظ بمعرّف المستخدم الخاص بك (reporterUid) مرتبطاً بالبلاغ",
+                  "نوع البلاغ وتفاصيله (حقوق نشر، محتوى غير لائق، إلخ)",
+                  "معرّف المحتوى المُبلَّغ عنه",
+                  "تاريخ ووقت البلاغ"
+                ],
+                purpose: "الغرض: متابعة البلاغات والتحقق منها ومنع سوء الاستخدام.",
+                note: "ملاحظة: البلاغات مرتبطة بهويتك لضمان مصداقية البلاغات ومنع الإساءة."
               }
             ]
           },
@@ -155,7 +166,7 @@ function PrivacyContent() {
                 ]
               }
             ],
-            note: "البيانات التي تُحذف تشمل: معلومات الملف الشخصي، رموز FCM، بيانات السلوك، المحتوى المحفوظ، وجميع البيانات المرتبطة بحسابك."
+            note: "البيانات التي تُحذف تشمل: معلومات الملف الشخصي، رموز FCM، بيانات السلوك، المحتوى المحفوظ، وجميع البيانات المرتبطة بحسابك. ملاحظة: قد تبقى بعض البلاغات المقدمة منك مجهولة الهوية (بدون ربطها بحسابك) للحفاظ على سلامة المحتوى."
           },
           {
             title: "١٠. خصوصية الأطفال",
@@ -189,7 +200,7 @@ function PrivacyContent() {
             content: "للوصول إلى الميزات المخصصة، يجب عليك تسجيل الدخول باستخدام حساب Google الخاص بك. بإنشاء حساب، فإنك توافق على:",
             items: [
               "تقديم معلومات دقيقة وكاملة",
-              "الحفاظ على أمان بيانات اعتماد حسابك",
+              "��لحفاظ على أمان بيانات اعتماد حسابك",
               "تحمل المسؤولية عن جميع الأنشطة التي تحدث تحت حسابك",
               "إخطارنا فوراً بأي استخدام غير مصرح به لحسابك"
             ]
@@ -219,7 +230,7 @@ function PrivacyContent() {
           },
           {
             title: "٨. تحديد المسؤولية",
-            content: "إلى أقصى حد يسمح به القانون، لن يكون نِبراس ومطوروه مسؤولين عن أي أضرار غير مباشرة أو عرضية أو خاصة أو تبعية أو عقابية، بما في ذلك على سبيل المثال لا الحصر خسارة الأرباح أو البيانات أو الخسائر غير الملموسة الأخرى."
+            content: "إلى أقصى حد يسمح به القانون، لن يكون نِبراس ومطوروه مسؤولين عن أي أضرار غير مباشرة أو عرضية أ�� خاصة أو تبعية أو عقابية، بما في ذلك على سبيل المثال لا الحصر خسارة الأرباح أو البيانات أو الخسائر غير الملموسة الأخرى."
           },
           {
             title: "٩. التعويض",
@@ -280,6 +291,17 @@ function PrivacyContent() {
                 ],
                 purpose: "Purpose: To personalize your experience and provide content recommendations relevant to your interests.",
                 note: "Important Note: This data is linked to your account identifier, meaning it is not anonymous. We use this linking to provide a consistent personalized experience across all your devices."
+              },
+              {
+                title: "d. Content Reports",
+                items: [
+                  "When reporting inappropriate content, we retain your user ID (reporterUid) linked to the report",
+                  "Report type and details (copyright, inappropriate content, etc.)",
+                  "Identifier of the reported content",
+                  "Date and time of the report"
+                ],
+                purpose: "Purpose: To follow up on reports, verify them, and prevent abuse.",
+                note: "Note: Reports are linked to your identity to ensure report credibility and prevent misuse."
               }
             ]
           },
@@ -379,7 +401,7 @@ function PrivacyContent() {
                 ]
               }
             ],
-            note: "Data that will be deleted includes: profile information, FCM tokens, behavior data, saved content, and all data associated with your account."
+            note: "Data that will be deleted includes: profile information, FCM tokens, behavior data, saved content, and all data associated with your account. Note: Some reports you submitted may remain anonymized (without linking to your account) to maintain content integrity."
           },
           {
             title: "10. Children's Privacy",
@@ -504,6 +526,17 @@ function PrivacyContent() {
                 ],
                 purpose: "Objectif : Personnaliser votre experience et fournir des recommandations de contenu pertinentes a vos interets.",
                 note: "Note importante : Ces donnees sont liees a l'identifiant de votre compte, ce qui signifie qu'elles ne sont pas anonymes. Nous utilisons ce lien pour fournir une experience personnalisee coherente sur tous vos appareils."
+              },
+              {
+                title: "d. Signalements de contenu",
+                items: [
+                  "Lors du signalement d'un contenu inapproprie, nous conservons votre identifiant utilisateur (reporterUid) lie au signalement",
+                  "Type et details du signalement (droits d'auteur, contenu inapproprie, etc.)",
+                  "Identifiant du contenu signale",
+                  "Date et heure du signalement"
+                ],
+                purpose: "Objectif : Suivre les signalements, les verifier et prevenir les abus.",
+                note: "Note : Les signalements sont lies a votre identite pour garantir la credibilite des signalements et prevenir les abus."
               }
             ]
           },
@@ -603,7 +636,7 @@ function PrivacyContent() {
                 ]
               }
             ],
-            note: "Les donnees qui seront supprimees comprennent : informations de profil, jetons FCM, donnees de comportement, contenu enregistre et toutes les donnees associees a votre compte."
+            note: "Les donnees qui seront supprimees comprennent : informations de profil, jetons FCM, donnees de comportement, contenu enregistre et toutes les donnees associees a votre compte. Note : Certains signalements que vous avez soumis peuvent rester anonymises (sans lien avec votre compte) pour maintenir l'integrite du contenu."
           },
           {
             title: "10. Confidentialite des enfants",
