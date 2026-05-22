@@ -4,9 +4,12 @@ import Link from "next/link"
 import { useState } from "react"
 import { Menu, X } from "lucide-react"
 import { Button } from "@/components/ui/button"
+import { LanguageSwitcher } from "@/components/language-switcher"
+import { useLocale } from "@/components/locale-provider"
 
 export function Navbar() {
   const [isOpen, setIsOpen] = useState(false)
+  const { locale, setLocale, t } = useLocale()
 
   return (
     <nav className="fixed top-0 left-0 right-0 z-50 bg-background/80 backdrop-blur-md border-b border-border">
@@ -19,33 +22,37 @@ export function Navbar() {
             <span className="text-2xl font-serif font-bold text-foreground">نِبراس</span>
           </Link>
           
-          <div className="hidden md:flex items-center gap-8">
+          <div className="hidden md:flex items-center gap-6">
             <Link href="/" className="text-sm font-medium text-muted-foreground hover:text-foreground transition-colors">
-              الرئيسية
+              {t.nav.home}
             </Link>
             <Link href="#features" className="text-sm font-medium text-muted-foreground hover:text-foreground transition-colors">
-              المميزات
+              {t.nav.features}
             </Link>
             <Link href="#about" className="text-sm font-medium text-muted-foreground hover:text-foreground transition-colors">
-              عن التطبيق
+              {t.nav.about}
             </Link>
             <Link href="/privacy" className="text-sm font-medium text-muted-foreground hover:text-foreground transition-colors">
-              الخصوصية
+              {t.nav.privacy}
             </Link>
+            <LanguageSwitcher currentLocale={locale} onLocaleChange={setLocale} />
             <Button asChild>
               <a href="https://play.google.com/store" target="_blank" rel="noopener noreferrer">
-                حمّل التطبيق
+                {t.nav.download}
               </a>
             </Button>
           </div>
 
-          <button
-            className="md:hidden p-2"
-            onClick={() => setIsOpen(!isOpen)}
-            aria-label="فتح القائمة"
-          >
-            {isOpen ? <X className="h-6 w-6" /> : <Menu className="h-6 w-6" />}
-          </button>
+          <div className="flex items-center gap-2 md:hidden">
+            <LanguageSwitcher currentLocale={locale} onLocaleChange={setLocale} />
+            <button
+              className="p-2"
+              onClick={() => setIsOpen(!isOpen)}
+              aria-label={t.nav.openMenu}
+            >
+              {isOpen ? <X className="h-6 w-6" /> : <Menu className="h-6 w-6" />}
+            </button>
+          </div>
         </div>
       </div>
 
@@ -53,20 +60,20 @@ export function Navbar() {
         <div className="md:hidden bg-background border-b border-border">
           <div className="px-4 py-4 space-y-3">
             <Link href="/" className="block text-sm font-medium text-muted-foreground hover:text-foreground transition-colors" onClick={() => setIsOpen(false)}>
-              الرئيسية
+              {t.nav.home}
             </Link>
             <Link href="#features" className="block text-sm font-medium text-muted-foreground hover:text-foreground transition-colors" onClick={() => setIsOpen(false)}>
-              المميزات
+              {t.nav.features}
             </Link>
             <Link href="#about" className="block text-sm font-medium text-muted-foreground hover:text-foreground transition-colors" onClick={() => setIsOpen(false)}>
-              عن التطبيق
+              {t.nav.about}
             </Link>
             <Link href="/privacy" className="block text-sm font-medium text-muted-foreground hover:text-foreground transition-colors" onClick={() => setIsOpen(false)}>
-              الخصوصية
+              {t.nav.privacy}
             </Link>
             <Button asChild className="w-full">
               <a href="https://play.google.com/store" target="_blank" rel="noopener noreferrer">
-                حمّل التطبيق
+                {t.nav.download}
               </a>
             </Button>
           </div>

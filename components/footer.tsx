@@ -1,6 +1,11 @@
+"use client"
+
 import Link from "next/link"
+import { useLocale } from "@/components/locale-provider"
 
 export function Footer() {
+  const { t } = useLocale()
+  
   return (
     <footer className="bg-secondary border-t border-border">
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-12">
@@ -13,50 +18,49 @@ export function Footer() {
               <span className="text-2xl font-serif font-bold text-foreground">نِبراس</span>
             </Link>
             <p className="text-muted-foreground text-sm leading-relaxed max-w-md">
-              نُنير العقول بنور العلم والمعرفة من خلال تراث العلماء والمفكرين.
-              رحلتك نحو المعرفة تبدأ من هنا.
+              {t.footer.tagline}
             </p>
           </div>
           
           <div>
-            <h4 className="font-serif font-semibold text-foreground mb-4">روابط سريعة</h4>
+            <h4 className="font-serif font-semibold text-foreground mb-4">{t.footer.quickLinks}</h4>
             <ul className="space-y-2">
               <li>
                 <Link href="/" className="text-sm text-muted-foreground hover:text-foreground transition-colors">
-                  الرئيسية
+                  {t.nav.home}
                 </Link>
               </li>
               <li>
                 <Link href="#features" className="text-sm text-muted-foreground hover:text-foreground transition-colors">
-                  المميزات
+                  {t.nav.features}
                 </Link>
               </li>
               <li>
                 <Link href="#about" className="text-sm text-muted-foreground hover:text-foreground transition-colors">
-                  عن نِبراس
+                  {t.nav.about}
                 </Link>
               </li>
             </ul>
           </div>
           
           <div>
-            <h4 className="font-serif font-semibold text-foreground mb-4">قانوني</h4>
+            <h4 className="font-serif font-semibold text-foreground mb-4">{t.footer.legal}</h4>
             <ul className="space-y-2">
               <li>
                 <Link href="/privacy" className="text-sm text-muted-foreground hover:text-foreground transition-colors">
-                  سياسة الخصوصية
+                  {t.footer.privacyPolicy}
                 </Link>
               </li>
               <li>
                 <Link href="/privacy#terms" className="text-sm text-muted-foreground hover:text-foreground transition-colors">
-                  شروط الاستخدام
+                  {t.footer.terms}
                 </Link>
               </li>
             </ul>
           </div>
           
           <div>
-            <h4 className="font-serif font-semibold text-foreground mb-4">تواصل معنا</h4>
+            <h4 className="font-serif font-semibold text-foreground mb-4">{t.footer.contact}</h4>
             <a 
               href="mailto:oroekekdkdjjddjjdke@gmail.com" 
               className="text-sm text-muted-foreground hover:text-foreground transition-colors"
@@ -69,7 +73,7 @@ export function Footer() {
         
         <div className="border-t border-border mt-8 pt-8 text-center">
           <p className="text-sm text-muted-foreground">
-            جميع الحقوق محفوظة &copy; {new Date().getFullYear()} نِبراس
+            {t.footer.copyright} &copy; {new Date().getFullYear()} نِبراس
           </p>
         </div>
       </div>
