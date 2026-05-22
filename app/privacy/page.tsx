@@ -133,19 +133,20 @@ function PrivacyContent() {
           },
           {
             title: "٩. كيفية حذف حسابك وبياناتك",
-            content: "نوفر لك طريقتين لحذف حسابك وبياناتك بالكامل:",
+            content: "نوفر لجميع المستخدمين إمكانية حذف حساباتهم مباشرة من داخل التطبيق نفسه، دون الحاجة للذهاب إلى أي موقع خارجي أو اتخاذ أي إجراءات إضافية. هذه الميزة متاحة لجميع المستخدمين بشكل كامل.",
             subsections: [
               {
-                title: "الطريقة الأولى: من داخل التطبيق",
+                title: "الطريقة الرئيسية: من داخل التطبيق مباشرة (موصى بها)",
                 items: [
                   "افتح التطبيق وانتقل إلى الإعدادات",
                   "اضغط على \"حذف الحساب\"",
                   "أكد رغبتك في الحذف",
-                  "سيتم حذف جميع بياناتك فوراً"
-                ]
+                  "سيتم حذف جميع بياناتك فوراً وبشكل نهائي"
+                ],
+                note: "هذه هي الطريقة الأسرع والأسهل - لا تحتاج لأي شيء آخر."
               },
               {
-                title: "الطريقة الثانية: عبر البريد الإلكتروني",
+                title: "طريقة بديلة: عبر البريد الإلكتروني (في حال عدم تمكنك من الوصول للتطبيق)",
                 items: [
                   "أرسل طلب حذف إلى: oroekekdkdjjddjjdke@gmail.com",
                   "اذكر عنوان بريدك الإلكتروني المرتبط بالحساب",
@@ -222,7 +223,7 @@ function PrivacyContent() {
           },
           {
             title: "٩. التعويض",
-            content: "أنت توافق على تعويض نِبراس ومطوريه والمسؤولين والموظفين والدفاع عنهم وحمايتهم من أي مطالبات أو أضرار أو التزامات أو تكاليف تنشأ عن استخدامك للتطبيق أو انتهاكك لهذه الشروط."
+            content: "أنت توافق على تعويض نِبراس ومطوريه والمسؤولين والموظفين والدفاع عنهم وحمايتهم من أي مطالبات ��و أضرار أو التزامات أو تكاليف تنشأ عن استخدامك للتطبيق أو انتهاكك لهذه الشروط."
           },
           {
             title: "١٠. التغييرات على الشروط",
@@ -356,19 +357,20 @@ function PrivacyContent() {
           },
           {
             title: "9. How to Delete Your Account and Data",
-            content: "We provide two ways to delete your account and data completely:",
+            content: "We provide all users with the ability to delete their accounts directly from within the app itself, without needing to visit any external website or take any additional steps. This feature is fully available to all users.",
             subsections: [
               {
-                title: "Method 1: From within the app",
+                title: "Primary Method: Directly from within the app (Recommended)",
                 items: [
                   "Open the app and go to Settings",
                   "Tap on \"Delete Account\"",
                   "Confirm your deletion request",
-                  "All your data will be deleted immediately"
-                ]
+                  "All your data will be deleted immediately and permanently"
+                ],
+                note: "This is the fastest and easiest method - you don't need anything else."
               },
               {
-                title: "Method 2: Via email",
+                title: "Alternative Method: Via email (if you cannot access the app)",
                 items: [
                   "Send a deletion request to: oroekekdkdjjddjjdke@gmail.com",
                   "Include your email address associated with the account",
@@ -579,19 +581,20 @@ function PrivacyContent() {
           },
           {
             title: "9. Comment supprimer votre compte et vos donnees",
-            content: "Nous fournissons deux methodes pour supprimer completement votre compte et vos donnees :",
+            content: "Nous offrons a tous les utilisateurs la possibilite de supprimer leurs comptes directement depuis l'application elle-meme, sans avoir besoin de visiter un site externe ou de prendre des mesures supplementaires. Cette fonctionnalite est entierement disponible pour tous les utilisateurs.",
             subsections: [
               {
-                title: "Methode 1 : Depuis l'application",
+                title: "Methode principale : Directement depuis l'application (Recommandee)",
                 items: [
                   "Ouvrez l'application et allez dans Parametres",
                   "Appuyez sur \"Supprimer le compte\"",
                   "Confirmez votre demande de suppression",
-                  "Toutes vos donnees seront supprimees immediatement"
-                ]
+                  "Toutes vos donnees seront supprimees immediatement et definitivement"
+                ],
+                note: "C'est la methode la plus rapide et la plus simple - vous n'avez besoin de rien d'autre."
               },
               {
-                title: "Methode 2 : Par e-mail",
+                title: "Methode alternative : Par e-mail (si vous ne pouvez pas acceder a l'application)",
                 items: [
                   "Envoyez une demande de suppression a : oroekekdkdjjddjjdke@gmail.com",
                   "Incluez votre adresse e-mail associee au compte",
