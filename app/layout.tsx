@@ -18,12 +18,12 @@ const tajawal = Tajawal({
 })
 
 export const metadata: Metadata = {
-  title: 'نِبراس - بوابتك إلى عالم المعرفة',
-  description: 'نِبراس هو أرشيف علمي ناشئ ومتنامٍ باستمرار، يُعنى بجمع المعارف الدينية والدنيوية من مختلف المذاهب الإسلامية والعلوم الطبيعية وغيرها. استكشف الكتب والفيديوهات والمحتوى المخصص لك.',
-  keywords: ['نبراس', 'كتب إسلامية', 'أرشيف علمي', 'المذاهب الإسلامية', 'فيديوهات تعليمية', 'العلوم الطبيعية', 'تطبيق إسلامي'],
+  title: 'نِبراس - بوابتك إلى عالم المعرفة | Nibras - Your Gateway to Knowledge',
+  description: 'نِبراس هو أرشيف علمي ناشئ ومتنامٍ باستمرار، يُعنى بجمع المعارف الدينية والدنيوية من مختلف المذاهب الإسلامية والعلوم الطبيعية وغيرها. التطبيق متوفر بثلاث لغات: العربية والإنجليزية والفرنسية. | Nibras is an emerging and constantly growing scientific archive. Available in three languages: Arabic, English, and French.',
+  keywords: ['نبراس', 'Nibras', 'كتب إسلامية', 'Islamic books', 'أرشيف علمي', 'scientific archive', 'المذاهب الإسلامية', 'Islamic schools', 'فيديوهات تعليمية', 'educational videos', 'العلوم الطبيعية', 'natural sciences', 'تطبيق إسلامي', 'Islamic app', 'Arabic', 'English', 'French', 'multilingual'],
   openGraph: {
-    title: 'نِبراس - بوابتك إلى عالم المعرفة',
-    description: 'استكشف مجموعة واسعة من المعارف الدينية والدنيوية من خلال الكتب والفيديوهات.',
+    title: 'نِبراس - بوابتك إلى عالم المعرفة | Nibras - Your Gateway to Knowledge',
+    description: 'استكشف مجموعة واسعة من المعارف الدينية والدنيوية من خلال الكتب والفيديوهات. متوفر بثلاث لغات: العربية والإنجليزية والفرنسية. | Explore a wide range of religious and worldly knowledge. Available in Arabic, English, and French.',
     type: 'website',
   },
 }
