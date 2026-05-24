@@ -40,10 +40,12 @@ function PrivacyContent() {
                 title: "ب. رموز الإشعارات (FCM Tokens)",
                 items: [
                   "نجمع رموز Firebase Cloud Messaging (FCM) الخاصة بجهازك",
+                  "تُرسل هذه الرموز إلى خادمنا الخاص لتمكين إرسال الإشعارات إليك",
                   "تُستخدم هذه الرموز حصرياً لإرسال إشعارات التطبيق إليك",
                   "قد تشمل الإشعارات: تنبيهات المحتوى الجديد، تحديثات التطبيق، أو رسائل مهمة"
                 ],
-                purpose: "الغرض: تمكين خدمة الإشعارات الفورية على جهازك."
+                purpose: "الغرض: تمكين خدمة الإشعارات الفورية على جهازك.",
+                note: "ملاحظة: يُرسل رمز FCM إلى خادمنا (بالإضافة إلى Firebase) لتمكيننا من إرسال الإشعارات المخصصة."
               },
               {
                 title: "ج. بيانات السلوك داخل التطبيق",
@@ -55,7 +57,7 @@ function PrivacyContent() {
                   "آخر صفحة قرأتها في كل كتاب (لاستئناف القراءة)"
                 ],
                 purpose: "الغرض: تخصيص تجربتك وتقديم توصيات محتوى ملائمة لاهتماماتك.",
-                note: "ملاحظة مهمة: هذه البيانات مرتبطة بمعرّف حسابك، مما يعني أنها ليست مجهولة الهوية. نستخدم هذا الربط لتقديم تجربة مخصصة متسقة عبر جميع أجهزتك."
+                note: "ملاحظة مهمة: هذه البيانات تُخزَّن محلياً على جهازك ولا تُزامَن سحابياً. التخصيص يتم على مستوى الجهاز فقط."
               },
               {
                 title: "د. بلاغات المحتوى",
@@ -218,11 +220,11 @@ function PrivacyContent() {
           },
           {
             title: "٥. الملكية الفكرية",
-            content: "المحتوى المتاح عبر نِبراس، بما في ذلك على سبيل المثال لا الحصر النصوص والرسومات والشعارات والصور والمحتوى الصوتي والمرئي، محمي بموجب قوانين حقوق النشر والعلامات التجارية وقوانين الملكية الفكرية الأخرى. يُقدم المحتوى للاستخدام التعليمي الشخصي غير التجاري فقط."
+            content: "المحتوى المتاح عبر نِبراس، بما في ذلك على سبيل المثال لا الحصر النصوص والرسومات وا��شعارات والصور والمحتوى الصوتي والمرئي، محمي بموجب قوانين حقوق النشر والعلامات التجارية وقوانين الملكية الفكرية الأخرى. يُقدم المحتوى للاستخدام التعليمي الشخصي غير التجاري فقط."
           },
           {
             title: "٦. إخلاء مسؤولية المحتوى",
-            content: "يقدم نِبراس محتوى من مختلف المذاهب الإسلامية والعلوم الدنيوية لأغراض تعليمية. وجود أي محتوى لا يشكل تأييداً لأي وجهة نظر معينة. نشجع المستخدمين على التعامل مع جميع المحتوى بتفكير نقدي واستشارة العلماء المؤهلين للإرشاد الديني."
+            content: "يقدم نِبراس محتوى من مخ��لف المذاهب الإسلامية والعلوم الدنيوية لأغراض تعليمية. وجود أي محتوى لا يشكل تأييداً لأي وجهة نظر معينة. نشجع المستخدمين على التعامل مع جميع المحتوى بتفكير نقدي واستشارة العلماء المؤهلين للإرشاد الديني."
           },
           {
             title: "٧. التوفر والتحديثات",
@@ -275,10 +277,12 @@ function PrivacyContent() {
                 title: "b. Notification Tokens (FCM Tokens)",
                 items: [
                   "We collect Firebase Cloud Messaging (FCM) tokens from your device",
+                  "These tokens are sent to our server to enable sending notifications to you",
                   "These tokens are used exclusively to send app notifications to you",
                   "Notifications may include: new content alerts, app updates, or important messages"
                 ],
-                purpose: "Purpose: To enable push notification service on your device."
+                purpose: "Purpose: To enable push notification service on your device.",
+                note: "Note: FCM token is sent to our server (in addition to Firebase) to enable us to send customized notifications."
               },
               {
                 title: "c. In-App Behavior Data",
@@ -290,7 +294,7 @@ function PrivacyContent() {
                   "Last page read in each book (to resume reading)"
                 ],
                 purpose: "Purpose: To personalize your experience and provide content recommendations relevant to your interests.",
-                note: "Important Note: This data is linked to your account identifier, meaning it is not anonymous. We use this linking to provide a consistent personalized experience across all your devices."
+                note: "Important Note: This data is stored locally on your device and is not synced to the cloud. Personalization is done at the device level only."
               },
               {
                 title: "d. Content Reports",
@@ -510,10 +514,12 @@ function PrivacyContent() {
                 title: "b. Jetons de notification (Jetons FCM)",
                 items: [
                   "Nous collectons les jetons Firebase Cloud Messaging (FCM) de votre appareil",
+                  "Ces jetons sont envoyes a notre serveur pour permettre l'envoi de notifications",
                   "Ces jetons sont utilises exclusivement pour vous envoyer des notifications de l'application",
                   "Les notifications peuvent inclure : alertes de nouveau contenu, mises a jour de l'application ou messages importants"
                 ],
-                purpose: "Objectif : Activer le service de notification push sur votre appareil."
+                purpose: "Objectif : Activer le service de notification push sur votre appareil.",
+                note: "Note : Le jeton FCM est envoye a notre serveur (en plus de Firebase) pour nous permettre d'envoyer des notifications personnalisees."
               },
               {
                 title: "c. Donnees de comportement dans l'application",
@@ -525,7 +531,7 @@ function PrivacyContent() {
                   "Derniere page lue dans chaque livre (pour reprendre la lecture)"
                 ],
                 purpose: "Objectif : Personnaliser votre experience et fournir des recommandations de contenu pertinentes a vos interets.",
-                note: "Note importante : Ces donnees sont liees a l'identifiant de votre compte, ce qui signifie qu'elles ne sont pas anonymes. Nous utilisons ce lien pour fournir une experience personnalisee coherente sur tous vos appareils."
+                note: "Note importante : Ces donnees sont stockees localement sur votre appareil et ne sont pas synchronisees dans le cloud. La personnalisation se fait uniquement au niveau de l'appareil."
               },
               {
                 title: "d. Signalements de contenu",
