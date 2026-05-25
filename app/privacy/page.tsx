@@ -199,13 +199,14 @@ function PrivacyContent() {
           },
           {
             title: "٣. حسابات المستخدمين",
-            content: "للوصول إلى الميزات المخصصة، يجب عليك تسجيل الدخول باستخدام حساب Google الخاص بك. بإنشاء حساب، فإنك توافق على:",
+            content: "تسجيل الدخول في تطبيق نِبراس اختياري وليس إلزامياً. يمكنك استخدام التطبيق كضيف دون إنشاء حساب. إذا اخترت تسجيل الدخول باستخدام حساب Google، فإنك توافق على:",
             items: [
               "تقديم معلومات دقيقة وكاملة",
-              "��لحفاظ على أمان بيانات اعتماد حسابك",
+              "الحفاظ على أمان بيانات اعتماد حسابك",
               "تحمل المسؤولية عن جميع الأنشطة التي تحدث تحت حسابك",
               "إخطارنا فوراً بأي استخدام غير مصرح به لحسابك"
-            ]
+            ],
+            note: "ملاحظة: بعض الميزات مثل حفظ المحتوى والتخصيص قد تتطلب تسجيل الدخول."
           },
           {
             title: "٤. الاستخدام المقبول",
@@ -436,13 +437,14 @@ function PrivacyContent() {
           },
           {
             title: "3. User Accounts",
-            content: "To access personalized features, you must sign in using your Google account. By creating an account, you agree to:",
+            content: "Signing in to the Nibras app is optional and not mandatory. You can use the app as a guest without creating an account. If you choose to sign in using your Google account, you agree to:",
             items: [
               "Provide accurate and complete information",
               "Maintain the security of your account credentials",
               "Be responsible for all activities that occur under your account",
               "Notify us immediately of any unauthorized use of your account"
-            ]
+            ],
+            note: "Note: Some features such as saving content and personalization may require signing in."
           },
           {
             title: "4. Acceptable Use",
@@ -673,13 +675,14 @@ function PrivacyContent() {
           },
           {
             title: "3. Comptes utilisateurs",
-            content: "Pour acceder aux fonctionnalites personnalisees, vous devez vous connecter avec votre compte Google. En creant un compte, vous acceptez de :",
+            content: "La connexion a l'application Nibras est facultative et non obligatoire. Vous pouvez utiliser l'application en tant qu'invite sans creer de compte. Si vous choisissez de vous connecter avec votre compte Google, vous acceptez de :",
             items: [
               "Fournir des informations exactes et completes",
               "Maintenir la securite des identifiants de votre compte",
               "Etre responsable de toutes les activites qui se produisent sous votre compte",
               "Nous informer immediatement de toute utilisation non autorisee de votre compte"
-            ]
+            ],
+            note: "Note : Certaines fonctionnalites telles que l'enregistrement du contenu et la personnalisation peuvent necessiter une connexion."
           },
           {
             title: "4. Utilisation acceptable",
