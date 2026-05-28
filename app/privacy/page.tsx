@@ -69,6 +69,17 @@ function PrivacyContent() {
                 ],
                 purpose: "الغرض: متابعة البلاغات والتحقق منها ومنع سوء الاستخدام.",
                 note: "ملاحظة: البلاغات مرتبطة بهويتك لضمان مصداقية البلاغات ومنع الإساءة."
+              },
+              {
+                title: "هـ. تشغيل الصوت في الخلفية",
+                items: [
+                  "يستخدم التطبيق خدمة تشغيل في المقدمة (Foreground Service) لتشغيل الصوت في الخلفية",
+                  "هذه الخدمة تُستخدم حصرياً لتشغيل الوسائط (Media Playback) - الكتب الصوتية والمحتوى الصوتي",
+                  "تظهر إشعار دائم أثناء تشغيل الصوت للتحكم في التشغيل",
+                  "لا تُجمع أي بيانات إضافية من خلال هذه الخدمة"
+                ],
+                purpose: "الغرض: تمكينك من الاستماع للمحتوى الصوتي حتى عند إغلاق التطبيق أو قفل الشاشة.",
+                note: "ملاحظة: هذه الميزة لا تتعلق بالتتبع أو جمع البيانات - إنها فقط لتشغيل الصوت."
               }
             ]
           },
@@ -215,13 +226,13 @@ function PrivacyContent() {
               "استخدام التطبيق بأي طريقة تنتهك القوانين أو اللوائح المعمول بها",
               "محاولة الوصول غير المصرح به إلى أي جزء من التطبيق",
               "التدخل في سلامة التطبيق أو أدائه أو تعطيله",
-              "نسخ أو تعديل أو توزيع أو إنشاء أعمال مشتقة من محتوانا دون إذن",
+              "نسخ أو تعديل ��و توزيع أو إنشاء أعمال مشتقة من محتوانا دون إذن",
               "استخدام أنظمة أو برامج آلية لاستخراج البيانات من التطبيق"
             ]
           },
           {
             title: "٥. الملكية الفكرية",
-            content: "المحتوى المتاح عبر نِبراس، بما في ذلك على سبيل المثال لا الحصر النصوص والرسومات وا��شعارات والصور والمحتوى الصوتي والمرئي، محمي بموجب قوانين حقوق النشر والعلامات التجارية وقوانين الملكية الفكرية الأخرى. يُقدم المحتوى للاستخدام التعليمي الشخصي غير التجاري فقط."
+            content: "المحتوى المتاح عبر نِبراس، بما في ذلك على سبيل المثال لا الحصر النصوص والرسومات وا����شعارات والصور والمحتوى الصوتي والمرئي، محمي بموجب قوانين حقوق النشر والعلامات التجارية وقوانين الملكية الفكرية الأخرى. يُقدم المحتوى للاستخدام التعليمي الشخصي غير التجاري فقط."
           },
           {
             title: "٦. إخلاء مسؤولية المحتوى",
@@ -307,6 +318,17 @@ function PrivacyContent() {
                 ],
                 purpose: "Purpose: To follow up on reports, verify them, and prevent abuse.",
                 note: "Note: Reports are linked to your identity to ensure report credibility and prevent misuse."
+              },
+              {
+                title: "e. Background Audio Playback",
+                items: [
+                  "The app uses a Foreground Service for playing audio in the background",
+                  "This service is used exclusively for Media Playback - audiobooks and audio content",
+                  "A persistent notification appears during audio playback for playback control",
+                  "No additional data is collected through this service"
+                ],
+                purpose: "Purpose: To enable you to listen to audio content even when the app is closed or the screen is locked.",
+                note: "Note: This feature is not related to tracking or data collection - it is solely for audio playback."
               }
             ]
           },
@@ -545,6 +567,17 @@ function PrivacyContent() {
                 ],
                 purpose: "Objectif : Suivre les signalements, les verifier et prevenir les abus.",
                 note: "Note : Les signalements sont lies a votre identite pour garantir la credibilite des signalements et prevenir les abus."
+              },
+              {
+                title: "e. Lecture audio en arriere-plan",
+                items: [
+                  "L'application utilise un Foreground Service pour lire l'audio en arriere-plan",
+                  "Ce service est utilise exclusivement pour la lecture multimedia - livres audio et contenu audio",
+                  "Une notification persistante apparait pendant la lecture audio pour controler la lecture",
+                  "Aucune donnee supplementaire n'est collectee via ce service"
+                ],
+                purpose: "Objectif : Vous permettre d'ecouter du contenu audio meme lorsque l'application est fermee ou l'ecran est verrouille.",
+                note: "Note : Cette fonctionnalite n'est pas liee au suivi ou a la collecte de donnees - elle sert uniquement a la lecture audio."
               }
             ]
           },
