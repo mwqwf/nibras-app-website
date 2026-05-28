@@ -69,6 +69,17 @@ function PrivacyContent() {
                 ],
                 purpose: "الغرض: متابعة البلاغات والتحقق منها ومنع سوء الاستخدام.",
                 note: "ملاحظة: البلاغات مرتبطة بهويتك لضمان مصداقية البلاغات ومنع الإساءة."
+              },
+              {
+                title: "هـ. تشغيل الصوت في الخلفية",
+                items: [
+                  "يستخدم التطبيق خدمة تشغيل في المقدمة (Foreground Service) لتشغيل الصوت في الخلفية",
+                  "هذه الخدمة تُستخدم حصرياً لتشغيل الوسائط (Media Playback) - الكتب الصوتية والمحتوى الصوتي",
+                  "تظهر إشعار دائم أثناء تشغيل الصوت للتحكم في التشغيل",
+                  "لا تُجمع أي بيانات إضافية من خلال هذه الخدمة"
+                ],
+                purpose: "الغرض: تمكينك من الاستماع للمحتوى الصوتي حتى عند إغلاق التطبيق أو قفل الشاشة.",
+                note: "ملاحظة: هذه الميزة لا تتعلق بالتتبع أو جمع البيانات - إنها فقط لتشغيل الصوت."
               }
             ]
           },
@@ -199,13 +210,14 @@ function PrivacyContent() {
           },
           {
             title: "٣. حسابات المستخدمين",
-            content: "للوصول إلى الميزات المخصصة، يجب عليك تسجيل الدخول باستخدام حساب Google الخاص بك. بإنشاء حساب، فإنك توافق على:",
+            content: "تسجيل الدخول في تطبيق نِبراس اختياري وليس إلزامياً. يمكنك استخدام التطبيق كضيف دون إنشاء حساب. إذا اخترت تسجيل الدخول باستخدام حساب Google، فإنك توافق على:",
             items: [
               "تقديم معلومات دقيقة وكاملة",
-              "��لحفاظ على أمان بيانات اعتماد حسابك",
+              "الحفاظ على أمان بيانات اعتماد حسابك",
               "تحمل المسؤولية عن جميع الأنشطة التي تحدث تحت حسابك",
               "إخطارنا فوراً بأي استخدام غير مصرح به لحسابك"
-            ]
+            ],
+            note: "ملاحظة: بعض الميزات مثل حفظ المحتوى والتخصيص قد تتطلب تسجيل الدخول."
           },
           {
             title: "٤. الاستخدام المقبول",
@@ -214,13 +226,13 @@ function PrivacyContent() {
               "استخدام التطبيق بأي طريقة تنتهك القوانين أو اللوائح المعمول بها",
               "محاولة الوصول غير المصرح به إلى أي جزء من التطبيق",
               "التدخل في سلامة التطبيق أو أدائه أو تعطيله",
-              "نسخ أو تعديل أو توزيع أو إنشاء أعمال مشتقة من محتوانا دون إذن",
+              "نسخ أو تعديل ��و توزيع أو إنشاء أعمال مشتقة من محتوانا دون إذن",
               "استخدام أنظمة أو برامج آلية لاستخراج البيانات من التطبيق"
             ]
           },
           {
             title: "٥. الملكية الفكرية",
-            content: "المحتوى المتاح عبر نِبراس، بما في ذلك على سبيل المثال لا الحصر النصوص والرسومات وا��شعارات والصور والمحتوى الصوتي والمرئي، محمي بموجب قوانين حقوق النشر والعلامات التجارية وقوانين الملكية الفكرية الأخرى. يُقدم المحتوى للاستخدام التعليمي الشخصي غير التجاري فقط."
+            content: "المحتوى المتاح عبر نِبراس، بما في ذلك على سبيل المثال لا الحصر النصوص والرسومات وا����شعارات والصور والمحتوى الصوتي والمرئي، محمي بموجب قوانين حقوق النشر والعلامات التجارية وقوانين الملكية الفكرية الأخرى. يُقدم المحتوى للاستخدام التعليمي الشخصي غير التجاري فقط."
           },
           {
             title: "٦. إخلاء مسؤولية المحتوى",
@@ -306,6 +318,17 @@ function PrivacyContent() {
                 ],
                 purpose: "Purpose: To follow up on reports, verify them, and prevent abuse.",
                 note: "Note: Reports are linked to your identity to ensure report credibility and prevent misuse."
+              },
+              {
+                title: "e. Background Audio Playback",
+                items: [
+                  "The app uses a Foreground Service for playing audio in the background",
+                  "This service is used exclusively for Media Playback - audiobooks and audio content",
+                  "A persistent notification appears during audio playback for playback control",
+                  "No additional data is collected through this service"
+                ],
+                purpose: "Purpose: To enable you to listen to audio content even when the app is closed or the screen is locked.",
+                note: "Note: This feature is not related to tracking or data collection - it is solely for audio playback."
               }
             ]
           },
@@ -436,13 +459,14 @@ function PrivacyContent() {
           },
           {
             title: "3. User Accounts",
-            content: "To access personalized features, you must sign in using your Google account. By creating an account, you agree to:",
+            content: "Signing in to the Nibras app is optional and not mandatory. You can use the app as a guest without creating an account. If you choose to sign in using your Google account, you agree to:",
             items: [
               "Provide accurate and complete information",
               "Maintain the security of your account credentials",
               "Be responsible for all activities that occur under your account",
               "Notify us immediately of any unauthorized use of your account"
-            ]
+            ],
+            note: "Note: Some features such as saving content and personalization may require signing in."
           },
           {
             title: "4. Acceptable Use",
@@ -543,6 +567,17 @@ function PrivacyContent() {
                 ],
                 purpose: "Objectif : Suivre les signalements, les verifier et prevenir les abus.",
                 note: "Note : Les signalements sont lies a votre identite pour garantir la credibilite des signalements et prevenir les abus."
+              },
+              {
+                title: "e. Lecture audio en arriere-plan",
+                items: [
+                  "L'application utilise un Foreground Service pour lire l'audio en arriere-plan",
+                  "Ce service est utilise exclusivement pour la lecture multimedia - livres audio et contenu audio",
+                  "Une notification persistante apparait pendant la lecture audio pour controler la lecture",
+                  "Aucune donnee supplementaire n'est collectee via ce service"
+                ],
+                purpose: "Objectif : Vous permettre d'ecouter du contenu audio meme lorsque l'application est fermee ou l'ecran est verrouille.",
+                note: "Note : Cette fonctionnalite n'est pas liee au suivi ou a la collecte de donnees - elle sert uniquement a la lecture audio."
               }
             ]
           },
@@ -673,13 +708,14 @@ function PrivacyContent() {
           },
           {
             title: "3. Comptes utilisateurs",
-            content: "Pour acceder aux fonctionnalites personnalisees, vous devez vous connecter avec votre compte Google. En creant un compte, vous acceptez de :",
+            content: "La connexion a l'application Nibras est facultative et non obligatoire. Vous pouvez utiliser l'application en tant qu'invite sans creer de compte. Si vous choisissez de vous connecter avec votre compte Google, vous acceptez de :",
             items: [
               "Fournir des informations exactes et completes",
               "Maintenir la securite des identifiants de votre compte",
               "Etre responsable de toutes les activites qui se produisent sous votre compte",
               "Nous informer immediatement de toute utilisation non autorisee de votre compte"
-            ]
+            ],
+            note: "Note : Certaines fonctionnalites telles que l'enregistrement du contenu et la personnalisation peuvent necessiter une connexion."
           },
           {
             title: "4. Utilisation acceptable",
