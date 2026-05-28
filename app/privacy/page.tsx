@@ -48,7 +48,7 @@ function PrivacyContent() {
                 note: "ملاحظة: يُرسل رمز FCM إلى خادمنا (بالإضافة إلى Firebase) لتمكيننا من إرسال الإشعارات المخصصة."
               },
               {
-                title: "ج. بيانات السلوك داخل التطبيق",
+                title: "ج. بيانات التخصيص المحلية (لا تُجمع على خوادمنا)",
                 items: [
                   "الكتب التي تتصفحها وتقرأها",
                   "الفيديوهات التي تشاهدها ومدة المشاهدة",
@@ -57,7 +57,7 @@ function PrivacyContent() {
                   "آخر صفحة قرأتها في كل كتاب (لاستئناف القراءة)"
                 ],
                 purpose: "الغرض: تخصيص تجربتك وتقديم توصيات محتوى ملائمة لاهتماماتك.",
-                note: "ملاحظة مهمة: هذه البيانات تُخزَّن محلياً على جهازك ولا تُزامَن سحابياً. التخصيص يتم على مستوى الجهاز فقط."
+                note: "ملاحظة مهمة: هذه البيانات تُخزَّن محلياً على جهازك فقط ولا تُرسل إلى خوادمنا أو أي طرف ثالث. نحن لا نجمع هذه البيانات - التخصيص يتم بالكامل على مستوى جهازك."
               },
               {
                 title: "د. بلاغات المحتوى",
@@ -100,11 +100,11 @@ function PrivacyContent() {
             content: "نخزن بياناتك بشكل آمن على خوادم Firebase (المملوكة لشركة Google) ونحتفظ بها وفق السياسة التالية:",
             items: [
               "بيانات الحساب: نحتفظ بها طوال فترة نشاط حسابك",
-              "بيانات السلوك: نحتفظ بها لمدة لا تتجاوز 24 شهراً من آخر نشاط",
+              "بيانات التخصيص: تبقى محلياً على جهازك ولا نحتفظ بها على خوادمنا",
               "رموز FCM: تُحدَّث تلقائياً وتُحذف القديمة منها",
               "المحتوى المحفوظ: يبقى حتى تحذفه أنت أو تحذف حسابك"
             ],
-            note: "عند حذف حسابك، نحذف جميع بياناتك خلال 30 يوماً كحد أقصى."
+            note: "عند حذف حسابك، نحذف جميع بياناتك خلال 30 يوما�� كحد أقصى."
           },
           {
             title: "٥. البيانات التي لا نجمعها",
@@ -179,7 +179,7 @@ function PrivacyContent() {
                 ]
               }
             ],
-            note: "البيانات التي تُحذف تشمل: معلومات الملف الشخصي، رموز FCM، بيانات السلوك، المحتوى المحفوظ، وجميع البيانات المرتبطة بحسابك. ملاحظة: قد تبقى بعض البلاغات المقدمة منك مجهولة الهوية (بدون ربطها بحسابك) للحفاظ على سلامة المحتوى."
+            note: "البيانات التي تُحذف تشمل: معلومات الملف الشخصي، رموز FCM، المحتوى المحفوظ، وجميع البيانات المرتبطة بحسابك على خوادمنا. بيانات التخصيص المحلية على جهازك يمكنك حذفها بإلغاء تثبيت التطبيق. ملاحظة: قد تبقى بعض البلاغات المقدمة منك مجهولة الهوية (بدون ربطها بحسابك) للحفاظ على سلامة المحتوى."
           },
           {
             title: "١٠. خصوصية الأطفال",
@@ -297,7 +297,7 @@ function PrivacyContent() {
                 note: "Note: FCM token is sent to our server (in addition to Firebase) to enable us to send customized notifications."
               },
               {
-                title: "c. In-App Behavior Data",
+                title: "c. Local Personalization Data (Not Collected on Our Servers)",
                 items: [
                   "Books you browse and read",
                   "Videos you watch and viewing duration",
@@ -306,7 +306,7 @@ function PrivacyContent() {
                   "Last page read in each book (to resume reading)"
                 ],
                 purpose: "Purpose: To personalize your experience and provide content recommendations relevant to your interests.",
-                note: "Important Note: This data is stored locally on your device and is not synced to the cloud. Personalization is done at the device level only."
+                note: "Important Note: This data is stored locally on your device only and is not sent to our servers or any third party. We do not collect this data - personalization is done entirely on your device."
               },
               {
                 title: "d. Content Reports",
@@ -349,7 +349,7 @@ function PrivacyContent() {
             content: "We securely store your data on Firebase servers (owned by Google) and retain it according to the following policy:",
             items: [
               "Account data: Retained throughout your account's active period",
-              "Behavior data: Retained for no more than 24 months from last activity",
+              "Personalization data: Stays locally on your device and is not retained on our servers",
               "FCM tokens: Automatically updated and old ones deleted",
               "Saved content: Remains until you delete it or delete your account"
             ],
@@ -428,7 +428,7 @@ function PrivacyContent() {
                 ]
               }
             ],
-            note: "Data that will be deleted includes: profile information, FCM tokens, behavior data, saved content, and all data associated with your account. Note: Some reports you submitted may remain anonymized (without linking to your account) to maintain content integrity."
+            note: "Data that will be deleted includes: profile information, FCM tokens, saved content, and all data associated with your account on our servers. Local personalization data on your device can be deleted by uninstalling the app. Note: Some reports you submitted may remain anonymized (without linking to your account) to maintain content integrity."
           },
           {
             title: "10. Children's Privacy",
@@ -546,7 +546,7 @@ function PrivacyContent() {
                 note: "Note : Le jeton FCM est envoye a notre serveur (en plus de Firebase) pour nous permettre d'envoyer des notifications personnalisees."
               },
               {
-                title: "c. Donnees de comportement dans l'application",
+                title: "c. Donnees de personnalisation locales (Non collectees sur nos serveurs)",
                 items: [
                   "Livres que vous parcourez et lisez",
                   "Videos que vous regardez et duree de visionnage",
@@ -555,7 +555,7 @@ function PrivacyContent() {
                   "Derniere page lue dans chaque livre (pour reprendre la lecture)"
                 ],
                 purpose: "Objectif : Personnaliser votre experience et fournir des recommandations de contenu pertinentes a vos interets.",
-                note: "Note importante : Ces donnees sont stockees localement sur votre appareil et ne sont pas synchronisees dans le cloud. La personnalisation se fait uniquement au niveau de l'appareil."
+                note: "Note importante : Ces donnees sont stockees localement sur votre appareil uniquement et ne sont pas envoyees a nos serveurs ni a des tiers. Nous ne collectons pas ces donnees - la personnalisation se fait entierement sur votre appareil."
               },
               {
                 title: "d. Signalements de contenu",
@@ -598,7 +598,7 @@ function PrivacyContent() {
             content: "Nous stockons vos donnees en toute securite sur les serveurs Firebase (propriete de Google) et les conservons selon la politique suivante :",
             items: [
               "Donnees de compte : Conservees pendant toute la periode d'activite de votre compte",
-              "Donnees de comportement : Conservees pendant un maximum de 24 mois a partir de la derniere activite",
+              "Donnees de personnalisation : Restent localement sur votre appareil et ne sont pas conservees sur nos serveurs",
               "Jetons FCM : Automatiquement mis a jour et les anciens supprimes",
               "Contenu enregistre : Reste jusqu'a ce que vous le supprimiez ou supprimiez votre compte"
             ],
@@ -677,7 +677,7 @@ function PrivacyContent() {
                 ]
               }
             ],
-            note: "Les donnees qui seront supprimees comprennent : informations de profil, jetons FCM, donnees de comportement, contenu enregistre et toutes les donnees associees a votre compte. Note : Certains signalements que vous avez soumis peuvent rester anonymises (sans lien avec votre compte) pour maintenir l'integrite du contenu."
+            note: "Les donnees qui seront supprimees comprennent : informations de profil, jetons FCM, contenu enregistre et toutes les donnees associees a votre compte sur nos serveurs. Les donnees de personnalisation locales sur votre appareil peuvent etre supprimees en desinstallant l'application. Note : Certains signalements que vous avez soumis peuvent rester anonymises (sans lien avec votre compte) pour maintenir l'integrite du contenu."
           },
           {
             title: "10. Confidentialite des enfants",
